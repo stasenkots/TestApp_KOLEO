@@ -56,7 +56,7 @@ fun StationNotFoundScreen(
             Spacer(modifier = Modifier.height(100.dp))
             Image(
                 modifier = Modifier.padding(horizontal = 16.dp),
-                painter = painterResource(id = R.drawable.ic_location_not_found),
+                painter = painterResource(id = R.drawable.ic_location),
                 contentDescription = null
             )
             Spacer(modifier = Modifier.height(100.dp))

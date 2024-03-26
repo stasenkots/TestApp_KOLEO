@@ -1,6 +1,7 @@
 package com.example.testapp_koleo.ui.search
 
 import android.util.Log
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -44,6 +45,7 @@ fun MainSearchScreen(
 
     val startStationKeyword by viewModel.startStationKeywords.collectAsStateWithLifecycle()
     val endStationKeyword by viewModel.endStationKeywords.collectAsStateWithLifecycle()
+
     when (uiState) {
         MainSearchUiState.Initial -> MainSearchScreen { showSearchBottomSheet = true }
         is MainSearchUiState.Calculated -> CalculatedDistanceScreen(uiState) {

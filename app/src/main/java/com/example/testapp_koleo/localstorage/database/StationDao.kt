@@ -17,7 +17,6 @@ interface StationDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertStations(stations: List<StationEntity>)
 
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertStationKeywords(stationKeywords: List<StationKeywordEntity>)
 

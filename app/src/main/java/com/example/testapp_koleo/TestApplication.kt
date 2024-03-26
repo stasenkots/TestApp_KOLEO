@@ -48,7 +48,5 @@ class TestApplication : Application(), Configuration.Provider {
                         .enqueue(updateStationsRequest)
                 }
         }
-
-
     }
 }

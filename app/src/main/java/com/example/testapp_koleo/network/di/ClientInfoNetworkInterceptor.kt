@@ -17,7 +17,6 @@ class ClientInfoNetworkInterceptor @Inject constructor() : Interceptor {
         return chain.proceed(requestBuilder.build())
     }
 
-
     private companion object {
         private const val VERSION_HEADER = "X-KOLEO-Version"
     }

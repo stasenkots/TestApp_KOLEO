@@ -20,8 +20,8 @@ android {
 
         testInstrumentationRunner = "com.example.testapp_koleo.CustomTestRunner"
 
-        buildConfigField("String", "BASE_URL", "https://koleo.pl/api/v2/main/")
-        buildConfigField("String", "KOLEO_API_VERSION", "1")
+        buildConfigField("String", "BASE_URL", "\"https://koleo.pl/api/v2/main/\"")
+        buildConfigField("String", "KOLEO_API_VERSION", "\"1\"")
     }
 
     buildTypes {
