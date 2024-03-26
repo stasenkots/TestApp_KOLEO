@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestApp_KOLEO</string>
+    <string name="search_main_screen_title">Start searching for your station!</string>
+    <string name="search_button_text">Search</string>
+    <string name="main_search_bottom_sheet_title">Search for a connection</string>
+    <string name="search_start_station_hint">Start Station</string>
+    <string name="search_end_station_hint">End Station</string>
+    <string name="calculated_distance_title">Calculated Distance %1$.2f km</string>
+    <string name="station_not_found_title">Sorry, station \"%s\" was not found.\nTry Again</string>
+</resources>
